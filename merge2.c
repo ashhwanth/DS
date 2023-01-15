@@ -1,9 +1,8 @@
-#include <Stdio.h> 
- #include <conio.h> 
- main() { 
+#include <stdio.h> 
+ 
+int main() { 
    int arr1 [10], arr2 [10], arr3 [20]; 
    int i, n1, n2, m, index=0; 
-   clrscr(); 
    printf("\n Enter the number of elements in array 1: "); 
    scanf("%d", &n1); 
    printf("\n\n Enter the Elements of the first array"); 
@@ -32,6 +31,5 @@
    for(i=0;i<m;i++) { 
      printf("\t\n Arr[%d] = %d", i, arr3[i]); 
    } 
-     getch(); 
      return 0; 
  }
